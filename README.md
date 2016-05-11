@@ -3,4 +3,4 @@ This application notifies you of new orders in the online store
 
 ## Credits
 
-- [Alexander][link-author]
+- Alexander (redandspring@gmail.com)
