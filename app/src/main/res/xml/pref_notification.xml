@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="enable_notifications"
+        android:title="@string/enable_note" />
+
+    <EditTextPreference
+        android:defaultValue="15"
+        android:inputType="number"
+        android:key="interval_time"
+        android:title="@string/interval_time_min"
+        android:dependency="enable_notifications"
+        />
+
+</PreferenceScreen>
