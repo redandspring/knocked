@@ -70,7 +70,7 @@
     <string name="about_text">
         This application notifies you of new orders in the online store
     </string>
-    <string name="about_autor_text">Autor: Tretyakov A.</string>
+    <string name="about_autor_text">Author: Tretyakov A.</string>
     <string name="about_email_text">redandspring@gmail.com</string>
     <string name="notifytitle">Новый заказ</string>
     <string name="notifytext">На сайте создан новый заказ</string>

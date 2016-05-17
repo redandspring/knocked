@@ -39,7 +39,12 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        if ( savedInstanceState == null )  runService(CheckService.ResultMode.CREATE_ACTIVITY);
+        if ( savedInstanceState == null ){
+            if (br == null) {
+                broadcast();
+            }
+            runService(CheckService.ResultMode.CREATE_ACTIVITY);
+        }
 
         showOrders();
 
